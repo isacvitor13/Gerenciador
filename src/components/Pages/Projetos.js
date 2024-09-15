@@ -19,7 +19,7 @@ function Projetos() {
     //mostra a mensagem de projeto criado
     const location = useLocation()
     let message = ''
-
+// console.log(location)
     if (location.state) {
         message = location.state.message
     }

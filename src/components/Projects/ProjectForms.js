@@ -28,6 +28,7 @@ function ProjectForms({ handleSubmit, projectData, btnText }) {
     const Subimt = (e) => {
         e.preventDefault()//faz com que a pagina não recarregue 
         handleSubmit(project)
+        console.log(project)
     }
 
     function HandleChange(e) {
